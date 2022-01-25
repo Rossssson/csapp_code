@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/rossssson/csapp/ch2/Ch2.cpp">
+			<Option target="csapp"/>
+		</Unit>
 		<Unit filename="D:/rossssson/csapp/ch2/show_bytes.cpp">
 			<Option target="csapp"/>
 		</Unit>

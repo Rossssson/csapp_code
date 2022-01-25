@@ -3,4 +3,4 @@ project(csapp)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(csapp main.cpp ch2/show_bytes.cpp ch2/show_bytes.h)
+add_executable(csapp main.cpp ch2/show_bytes.cpp ch2/show_bytes.h ch2/Ch2.cpp)

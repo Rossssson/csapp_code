@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/csapp.dir/ch2/Ch2.cpp.obj"
   "CMakeFiles/csapp.dir/ch2/show_bytes.cpp.obj"
   "CMakeFiles/csapp.dir/main.cpp.obj"
   "csapp.exe"

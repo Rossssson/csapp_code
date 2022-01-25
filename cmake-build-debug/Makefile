@@ -128,6 +128,30 @@ csapp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\csapp.dir\build.make CMakeFiles/csapp.dir/build
 .PHONY : csapp/fast
 
+ch2/Ch2.obj: ch2/Ch2.cpp.obj
+.PHONY : ch2/Ch2.obj
+
+# target to build an object file
+ch2/Ch2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\csapp.dir\build.make CMakeFiles/csapp.dir/ch2/Ch2.cpp.obj
+.PHONY : ch2/Ch2.cpp.obj
+
+ch2/Ch2.i: ch2/Ch2.cpp.i
+.PHONY : ch2/Ch2.i
+
+# target to preprocess a source file
+ch2/Ch2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\csapp.dir\build.make CMakeFiles/csapp.dir/ch2/Ch2.cpp.i
+.PHONY : ch2/Ch2.cpp.i
+
+ch2/Ch2.s: ch2/Ch2.cpp.s
+.PHONY : ch2/Ch2.s
+
+# target to generate assembly for a file
+ch2/Ch2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\csapp.dir\build.make CMakeFiles/csapp.dir/ch2/Ch2.cpp.s
+.PHONY : ch2/Ch2.cpp.s
+
 ch2/show_bytes.obj: ch2/show_bytes.cpp.obj
 .PHONY : ch2/show_bytes.obj
 
@@ -185,6 +209,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... csapp
+	@echo ... ch2/Ch2.obj
+	@echo ... ch2/Ch2.i
+	@echo ... ch2/Ch2.s
 	@echo ... ch2/show_bytes.obj
 	@echo ... ch2/show_bytes.i
 	@echo ... ch2/show_bytes.s
