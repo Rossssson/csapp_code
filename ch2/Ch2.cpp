@@ -38,4 +38,8 @@ public:
         /*So, x|y can be implemented by bis(x,y), and x^y can be implemented by bic(bis(x,y),bic(x,y))*/
 
     }
+    bool ifEqual(int x,int y)
+    {
+        return !(x^y);
+    }
 };
