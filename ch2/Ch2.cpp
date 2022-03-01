@@ -43,3 +43,27 @@ public:
         return !(x^y);
     }
 };
+class ch2_2{
+public:
+    int fun2_23_1(unsigned w)
+    {
+        return (int)((w<<24)>>24);
+    }
+    int fun2_23_2(unsigned w)
+    {
+        return (((int)w<<24)>>24);
+    }
+
+    float fun2_25(const float a[],unsigned len)
+    {
+        int i;
+        float res=0;
+        for (i=0;i<=len-1;i++)
+        {
+            res+=a[i];
+        }
+        return res;
+    }
+    /*This program encounters with a memory error when input length=0. Because it is an unsigned, length-1 leads to
+     * 0xffffffff*/
+};
