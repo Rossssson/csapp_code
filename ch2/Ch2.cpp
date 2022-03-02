@@ -43,6 +43,7 @@ public:
         return !(x^y);
     }
 };
+
 class ch2_2{
 public:
     int fun2_23_1(unsigned w)
@@ -66,4 +67,14 @@ public:
     }
     /*This program encounters with a memory error when input length=0. Because it is an unsigned, length-1 leads to
      * 0xffffffff*/
+};
+
+class ch2_3
+{
+public:
+    bool uadd_ok(unsigned x,unsigned y)//Determine whether overflow
+    {
+        return (x<(x+y));
+    }
+    /*if overflow, x+y=x+y-2^w, given that y<2^w,x>x+y*/
 };
